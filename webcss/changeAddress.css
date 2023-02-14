@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 30%;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 50px auto;
+    margin-bottom: 150px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    font-size: 15px;
+    color: white;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.form-group{
+    margin-bottom: 1em;
+    transition:all .3s;
+}
+
+.form-label{
+    font-size: 13px;
+    display: block;
+    opacity: 1;
+    transform: translateY(-1.25em);
+    transform-origin: 0 0;
+    transition: all .3s;
+}
+
+.form-control{
+    font-size: 13px;
+    box-shadow: none;
+    border-radius: 0;
+    border-color: black;
+    border-style: none none solid none;
+    width: 100%;
+    transition: all .5s;
+    padding: 5px;
+}
+
+.form-control::placeholder{
+    color: transparent;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: skyblue;
+}
+
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label
+{
+    transform: translateY(-2.5em) scale(.8);
+}
+
+.form-group:focus-within{
+    transform: scale(1.05,1.05);
+}
+
+.set{
+    font-size: 0.7em;
+}
+.save{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+#save{
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#save:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        justify-content: flex-start;
+    }
+
+    .container{
+        width: 60%;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    h2{
+        font-size: 20px;
+    }
+
+    .form-control,.form-label{
+        font-size: 12px;
+    }
+
+    h4{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webcss/cancelorder.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <h2 class="goback"><a href="javascript:void(0);"> <span> &nbsp; <i class="fas fa-arrow-left"></i></span> &nbsp; Services</a></h2>
+    
+    <div class="container">
+        <div class="subcon">
+             <div class="po">
+                 <a href="services.html">PLACE ORDER</a>
+             </div>
+ 
+             <div class="co">
+                 <a href="javascript:void(0);">CANCEL ORDER</a>
+             </div>
+ 
+             <div class="dt">
+                 <a href="deliverytimel.html">DELIVERY TIMELINES & Return policy</a>
+             </div>
+        </div>
+
+        <div class="form">
+            
+        <form action="">
+            <div class="form_group">
+                <label for="orderID" class="form_label">Order Number/ID</label> 
+                <input type="number" class="form_control" id="orderID">
+            </div>
+
+            <div class="form_group">
+                <label for="name" class="form_label">First Name</label>
+                <input type="text" class="form_control" id="name">
+            </div>
+            
+            <div class="form_group">
+                <label for="lname" class="form_label">Last Name</label>
+                <input type="text" class="form_control" id="lname">
+            </div>
+
+            
+            <div class="form_group">
+                <label for="phoneno" class="form_label">Phone Number</label>
+                <input type="number" class="form_control" id="phoneno">
+            </div>
+
+            <div class="form_group">
+                <label for="address" class="form_label">Your Address</label>
+                <input type="text" class="form_control" id="address">
+            </div>
+
+            <div class="form_group">
+                <h4>Do you want to Cancel or Postpone</h4>
+                <input type="radio" name="CorP" class="form_radio" id="canorpost">
+                <label class="radio_label" for="canorpost">I want to Cancel my Order</label><br><br>
+                
+                <input type="radio" name="CorP" class="form_radio" id="canorpost">
+                <label class="radio_label" for="canorpost">I want to Postpone my Order</label>
+            </div>
+
+            <div class="form_group">
+                <h4>Reason for Cancellation or Postponement</h4>
+                <textarea class="form_control last" id="address"></textarea>
+            </div>      
+            
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </form>
+        </div>
+
+    </div>
+
+    <script type="module" src="myjs/goback.js"></script>
+</body>
+</html>

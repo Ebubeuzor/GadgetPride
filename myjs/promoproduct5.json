@@ -1,0 +1,14 @@
+{
+    "items": [
+ 
+        {
+            "sys": { "id": "7600" },
+            "fields": {
+              "title": "Samsung galaxy S21 Ultra",
+              "price": 100000,
+              "link": "promoproduct5.html",
+              "image": { "fields": { "file": { "url": "./images/samsung-phones/S21ultra.jpeg" } } }
+            }
+        }
+    ]
+}

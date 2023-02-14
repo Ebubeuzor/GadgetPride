@@ -1,0 +1,14 @@
+{
+    "items": [
+ 
+        {
+            "sys": { "id": "13" },
+            "fields": {
+              "title": "Wireless Headphone noisecancel",
+              "price": 100000,
+              "link": "headphoneproduct1.html",
+              "image": { "fields": { "file": { "url": "./images/headphones/noisecancel.png" } } }
+            }
+        }
+    ]
+}

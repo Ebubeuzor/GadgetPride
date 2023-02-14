@@ -1,0 +1,14 @@
+{
+    "items":[
+ 
+        {
+            "sys": { "id": "130" },
+            "fields": {
+              "title": "Samsung Fold 3",
+              "price": 100000,
+              "link":"similarproduct1.html",
+              "image": { "fields": { "file": { "url": "./images/samsung-phones/galaxyzfold3.png" } } }
+            }
+        }
+    ]
+}

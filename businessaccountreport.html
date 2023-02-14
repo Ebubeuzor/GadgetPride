@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webcss/businessaccountreport.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    
+    <h2 class="goback"><a href="javascript:void(0);"><span> &nbsp; <i class="fas fa-arrow-left"></i></span> &nbsp; Report Account</a></h2>
+
+    <div class="container">
+        <div class="container-header">
+            <p class="products-details"><a href="mybusinessaccount.html">Products</a></p>
+            <p class="Orders"><a href="businessaccountorderr.html">Orders</a></p>
+            <p class="Reports"><a href="javascript:void(0);">Reports</a></p>
+            <p class="settings"><a href="businessaccountsetting.html">Settings</a></p>
+        </div>
+
+        <div class="container-report">
+            <div class="bank-statement">
+                <h4>Bank statements</h4>
+                <table>
+                    <tr class="header">
+                        <td>Date</td>
+                        <td>OrderID</td>
+                        <td>Transaction</td>
+                        <td>Amount</td>
+                        <td>Payment</td>
+                        <td>Balance</td>
+                    </tr>
+
+                    <tr>
+                        <td>01/04/2019</td>
+                        <td>2222222</td>
+                        <td>Payment Recieved</td>
+                        <td>100,000.00</td>
+                        <td>50,000</td>
+                        <td>50,000</td>
+                    </tr>
+
+                    <tr>
+                        <td>01/04/2019</td>
+                        <td>2222222</td>
+                        <td>Payment Recieved</td>
+                        <td>100,000.00</td>
+                        <td>50,000</td>
+                        <td>50,000</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="6">Balance Due <span>100,000.00</span> </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="order-overview">
+                <h4>Order Overview</h4>
+                <table>
+                    <tr class="header">
+                        <td>Order ID</td>
+                        <td>Order Confirmation</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Commission</td>
+                        <td>Fees</td>
+                        <td>Operation Status</td>
+                        <td>Payment Status</td>
+                    </tr>
+
+                    <tr>
+                        <td>222222</td>
+                        <td>25 May 2022 3:15</td>
+                        <td>Iphone 11 pro</td>
+                        <td>100,000.00</td>
+                        <td>10,000.00</td>
+                        <td>10,000.00</td>
+                        <td>Delivered</td>
+                        <td>Unpaid</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="transaction-overview">
+                <h4>Transaction Overview</h4>
+                <table>
+                    <tr class="header">
+                        <td>Date</td>
+                        <td>Transaction</td>
+                        <td>Transaction Number</td>
+                        <td>Order ID</td>
+                        <td>Amount</td>
+                        <td>Payment</td>
+                    </tr>
+
+                    <tr>
+                        <td>01/04/2022</td>
+                        <td>Payment on Delivery</td>
+                        <td>0202202000</td>
+                        <td>Iphone 11 pro</td>
+                        <td>100,000.00</td>
+                        <td>Recieved</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="myjs/goback.js"></script>
+</body>
+</html>

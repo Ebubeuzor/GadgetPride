@@ -1,0 +1,15 @@
+{
+    "items": [
+ 
+        {
+            "sys": { "id": "1111" },
+            "fields": {
+              "title": "Andriod Earbuds",
+              "price1": 120000,
+              "price": 100000,
+              "link":"promoproduct4.html",
+              "image": { "fields": { "file": { "url": "./images/headphones/noisecancel.png" } } }
+            }
+        }
+]
+}

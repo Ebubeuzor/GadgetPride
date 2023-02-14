@@ -1,0 +1,14 @@
+{
+    "items": [
+ 
+        {
+            "sys": { "id": "14" },
+            "fields": {
+              "title": "Wireless Headphone",
+              "price": 100000,
+              "link": "headphoneproduct2.html",
+              "image": { "fields": { "file": { "url": "./images/headphones/wireless.png" } } }
+            }
+        }
+    ]
+}

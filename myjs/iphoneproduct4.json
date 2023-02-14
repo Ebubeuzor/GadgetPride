@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "sys": { "id": "4" },
+            "fields": {
+              "title": "Iphone 12 pro max",
+              "category":"iphone",
+              "price": 100000,
+              "link": "iphoneproduct4.html",
+              "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone12promax.png" } } }
+            }
+        }
+    ]
+}

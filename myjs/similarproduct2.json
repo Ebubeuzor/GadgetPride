@@ -1,0 +1,13 @@
+{
+    "items":[
+        {
+            "sys": { "id": "140" },
+            "fields": {
+              "title": "Iphone 13 Pro",
+              "price": 100000,
+              "link":"similarproduct2.html",
+              "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone13pro.png" } } }
+            }
+        }
+    ]
+}

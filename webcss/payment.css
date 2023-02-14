@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: whitesmoke;
+    font-family: Avenir Next, Avenir, SegoeUI, sans-serif;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.con{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    /* margin-bottom: 200px; */
+}
+
+.company{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.name{
+    font-size:25px;
+}
+
+p:nth-child(2){
+    color: orange;
+    font-weight: 900;
+}
+
+.img{
+    display: flex;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+
+.img .secure_text{
+    padding-top: 30px;
+}
+
+.DPS{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.DPS .D a{
+    color: black;
+}
+
+.DPS .P{
+    background: orange;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: -5px;
+}
+
+.pm,.shipping_fee,.item_shipping{
+    margin-bottom: 10px;
+}
+
+.item_total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ship_fee{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nac{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.nac .btn{
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    background: orange;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    transition: all .5s ease-in-out;
+}
+
+.nac .btn:hover{
+    transform: scale(1.1);
+}
+
+.nac .btn a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+footer{
+    background: black;
+    margin-top: 150px;
+    margin-bottom: 0;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .img img{
+        width: 50px;
+        margin-top: 12px;
+    }
+
+    .img .secure_text{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .name{
+        margin-top: 12px;
+        font-size: 17px;
+    }
+
+    .nac .btn{
+        width: 200px;
+    }
+
+    label{
+        font-size: 10px;
+    }
+
+    .DPS{
+        font-size: 11px;
+    }
+
+    .DPS a{
+        font-size: 11px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+    
+    .nac .btn a{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .DPS{
+        justify-content: space-between;
+        gap: 35px;
+        margin-left: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 240px) {
+    .con{
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+    }
+    
+    .img img{
+        width: 30px;
+        margin-top: 19px;
+    }
+
+    .img .secure_text{
+        font-size: 10px;
+    }
+
+    .name{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    footer {
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+datalist::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+.hs{
+    padding: 10px;
+    display: flex;;
+    align-items: center;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    justify-content: center;
+}
+
+.hs .search-products datalist{
+    display: none;
+}
+
+.hs #submit i{
+    color: black;
+}
+
+.hs .search-products{
+    width: 80vw;
+    display: flex;
+    margin: 0 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    align-items: stretch;
+}
+
+.hs .search-products:focus-within{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid orange;
+}
+
+.hs #submit{
+    font-size: 12px;
+    background: transparent;
+    padding:6px 9px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.hs #seachtext{
+    font-size: 10px;
+    flex: 1;
+    text-align: left;
+    border: none;
+    outline: none;
+    padding: 5px;
+    outline: none;
+    border-right: none;
+    padding-left: 10px;
+}
+
+.hs .goback{
+    margin-left: 10px;
+}
+

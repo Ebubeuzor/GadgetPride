@@ -1,0 +1,109 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+.container{
+    margin: 50px;
+    padding: 20px;
+    background: white;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container-header a{
+    color: black;
+    font-weight: 600;
+}
+
+
+.container-header .Reports a{
+    color: orange;
+}
+
+h4{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.container-report div{
+    margin-top: 50px;
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr td{
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+table .header td{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        margin: 50px 10px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 375px){
+    .container-header a{
+        font-size: 12px;
+    }
+
+    
+    table tr td {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 280px){
+    .container{
+        padding: 10px;
+    }
+
+}

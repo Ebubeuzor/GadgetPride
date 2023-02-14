@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="webcss/productinfos.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <h2 class="goback"><a href="javascript:void(0);"><span> &nbsp; <i class="fas fa-arrow-left"></i></span> &nbsp; Product Info</a></h2>
+
+    <div class="container">
+        <form action="">
+            <div>
+                <h4>Photos of your products</h4>
+    
+                <div class="product-image-container">
+                    <div class="product-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    
+                    <div class="product-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    
+                    <div class="product-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    
+                    <div class="product-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    
+                    <div class="product-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    
+                    <div class="product-image add">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="form-group">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label for="numAva" class="form-label">Number Available</label>
+                <input type="number" id="numAva" class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label for="category" class="form-label">Category</label>
+                <select id="category" class="form-control">
+                    <option value="cat" disabled>Category</option>
+                    <option value="samsung">Samsung</option>
+                    <option value="charger">Charger</option>
+                    <option value="headphones">Headphones</option>
+                    <option value="iphone">iphone</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="description" class="form-label">Product Description</label>
+                <textarea id="description" class="form-control last" id="address"></textarea>
+            </div>      
+
+
+        </form>
+
+    </div>
+
+    <script type="module" src="myjs/goback.js"></script>
+</body>
+</html>

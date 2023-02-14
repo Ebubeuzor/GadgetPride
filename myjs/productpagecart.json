@@ -1,0 +1,14 @@
+{
+    "items": [
+ 
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "Apple Iphone 11 4GB RAM + 64GB ROM",
+        "price": 100000,
+        "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone12.png" } } }
+      }
+    }
+]
+}
+  

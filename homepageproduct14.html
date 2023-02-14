@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="webcss/productpage.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+
+    <!-- Cart page -->
+    <div class="cart-overlay">
+        <div class="cart-cart">
+            <h2 class="close-cart" id="close-cart"><a href="javascript:void(0);"><span> &nbsp; <i class="fas fa-arrow-left"></i></span> &nbsp; GadgetPride Cart</a></h2>
+            
+            <section id="empty-cart">
+                <div class="e-con">
+        
+                    <div class="empty-main ">
+                        <div class="empty-icon">
+                            <img src="images/cart.png">
+                        </div>
+                        <p>Your cart is empty</p>
+                    </div>
+                    
+                    <div class="go-back"><a href="index.html">START SHOPPING</a></div>
+                </div>
+            </section>
+
+            <section id="full-cart">
+
+                <form action="">
+                    <div class="cart-content">
+                        <!-- <div class="cart-item">
+                      
+                        </div> -->
+                        
+                    </div>
+                    <div class="subtotal">
+                        <p>Subtotal:<span>₦</span></p>
+                        <p class="cart-total">0</p>
+            
+                    </div>
+                
+                    <div class="endtransaction">
+                        <button type="button" class="clear-cart banner-btn end">CLEAR CART</button>
+                        <button class="end">CHECKOUT</button>
+                    </div>
+                </form>
+
+            </section>
+
+            
+    <!-- Website Footer -->
+    
+    <footer>
+
+        <div class="main-con">
+
+            <div class="con-head">
+                <div class="company-name">GadgetPride</div>
+                <div class="subscribe">
+                    <form action="">
+                        <h4>Subscribe to our newsletter to get updates on latest offers</h4>
+                        <div class="form_block">
+                            <input type="email" placeholder="Enter your email address">
+                            <input type="submit" value="Subscribe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="con-body-categories">
+    
+                <div class="menu">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="report.html">Report a product</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+    
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="myaccount.html">User Account</a></li>
+                        <li><a href="sell.html">Sell On GadgetPride</a></li>
+                        <li><a href="trackorder.html">Trank An Order</a></li>
+                        <li><a href="saved.html">Saved Items</a></li>
+                    </ul>
+                </div>
+    
+                <div class="top-proucts">
+                    <h4>Top Products</h4>
+                    <ul>
+                        <li><a href="samsung.html">Samsung</a></li>
+                        <li><a href="iphone.html">Iphone</a></li>
+                        <li><a href="charger.html">Charger</a></li>
+                        <li><a href="headphone.html">Headphone</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+    
+            <div class="con-body2">
+                <div class="social-media">
+                    <h4>Join Us On</h4>
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+    
+                <div class="payment-method">
+                    <h4>Payment Method</h4>
+                        <ul>
+                            <li><a href=""><i class="fab fa-cc-mastercard"></i></a></li>
+                            <li><a href=""><i class="fab fa-paypal"></i></a></li>
+                            <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+                            <li><a href=""><i class="fas fa-credit-card"></i></a></li>
+                        </ul>
+                </div>
+            </div>
+            
+            <div class="main-con-footer">
+                All Rights Reserved
+            </div>
+        </div>
+
+
+        <div class="con">
+            <div class="top"><a href="#top">Back To Top</a></div>
+            <div class="subcon">
+                <a href="services.html">Help Center</a>
+                <a href="contactus.html">Contact US</a>
+                <a href="#">TERMS&CONDITION</a>
+                <a href="sell.html">BECOME A SELLER</a>
+                <a href="report.html">REPORT A PRODUCT</a>
+            </div>
+            <div class="bottom">
+                All Rights Reserved
+            </div>
+        </div>
+
+    </footer>
+        </div>
+    </div>
+     
+    <!-- End of Cart Page -->
+
+    <!-- Website header -->
+
+    
+    <div class="pageheader">
+        <div class="pageheader-content">
+        
+        
+        <!-- Start of Sidebar -->
+
+        <div class="pageheader1">
+            
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                
+            </label>
+        
+            <div class="sidebar" id="sidebar">
+                <header class="cancel"><span><i class="fas fa-times" id="cancel"></i></span>GadgetPride</header>
+                <div class="account hp">
+                    <header><a href="myaccount.html">Account <span> <i class="fa fa-angle-double-right"></i></span> </a></header>
+                <ul>
+                    <li><a href="order.html"><i class="fa fa-certificate"></i> Orders</a></li>
+                    <li><a href="useraccountdetails.html"><i class="far fa-user" aria-hidden="true"></i> Account Details</a></li>
+                    <li><a href="saved.html"><i class="fa fa-heart" aria-hidden="true"></i> Saved</a></li>
+                </ul>
+                </div>
+
+                <div class="categories hp">
+                    <header><a href="categories.html">Categories <span> <i class="fa fa-angle-double-right"></i></span> </a></header>
+                    <ul>
+                        <li><a href="headphone.html"><i class="fa fa-headphones" aria-hidden="true"></i>  HeadPhones</a></li>
+                        <li><a href="charger.html"><i class="fas fa-charging-station" aria-hidden="true"></i> Charger</a></li>
+                        <li><a href="samsung.html"><i class="fa fa-mobile" aria-hidden="true"></i>  Samsung</a></li>
+                        <li><a href="iphone.html"><i class="fa fa-mobile" aria-hidden="true"></i>  Iphones</a></li>
+                    </ul>
+                </div>
+
+                <div class="hp last">
+                    <ul>
+                        <li><a href="sell.html">Sell on GadgetPride</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- End of Sidebar -->
+
+            <!-- Company Name -->
+
+            <p class="companyname"><a href="index.html">GadgetPride</a></p>
+
+            <!-- End of Company Name -->
+
+        </div>
+        
+        <div class="pageheader2">
+            
+            <!-- Pageheader search -->
+            <div class="hs">
+                <div>
+                    <form>
+                        <div class="search-products">
+                            <input type="search" id="seachtext" placeholder="Search products and brand..." spellcheck="false">
+                            <button id="submit"><i class="fa fa-search"></i></button>
+                        </div>
+
+                        <div class="mobile-search"><a href="search.html"><i class="fa fa-search"></i></a></div>
+                    </form>
+                </div>
+            </div>
+            <!-- End Pageheader search -->
+
+            <!-- User Account -->
+
+            <div class="account account-header-container">
+                <div class="account-header">
+                    <p><a href="myaccount.html"><i class="far fa-user" aria-hidden="true"></i> <span class="hidden-account">Account</span></a></p>
+                </div>
+            </div>
+            <!-- End of User Account -->
+
+            <!-- User Cart Details -->
+
+            <div class="cart" id="cart-btn">
+                <p><a href="javascript:void(0)" class="cart-text">Cart</a></p>
+                <a href="javascript:void(0)"><i id="icon" class="fa fa-shopping-cart icon"></i></a>
+                <div class="cart-items">0</div>
+            </div>
+            <!-- End of User Cart Details -->
+
+        </div>
+        </div>
+    </div>
+
+    <!-- End of PageHeader -->
+    <div class="container">
+        <div class="product">
+                    
+            <div class="product-images">
+                <div class="mySlides">
+                <img src="images/phone-charger/amazon.jpeg">
+                </div>
+            
+                <div class="mySlides">
+                    <img src="images/phone-charger/ac.png">
+                </div>
+                
+                <div class="arrows">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+
+            <div class="product-detail">
+                <p class="product-name">For Samsung Phone</p>
+                <p class="product-brands"><a href="iphone.html">Category: HeadPhones</a></p>
+                <p class="product-ratings">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span>(5 verified Product Ratings)</span>
+                </p>
+                <p class="product-price">₦100,000</p>
+
+                <p class="add-save">
+
+                </p>
+
+                <p class="product-destination">
+                    Available at: <span>Lagos</span>
+                </p>
+
+                <p class="delivery-return">
+                    <a href="deliverytimel.html">DELIVERY TIMELINES & Return policy</a>
+                </p>
+            </div>
+        </div>
+      <br>
+      
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </div>
+    </div>
+    
+    <div class="product-description">
+        <h4>Product Info</h4>
+        <p>Brand New</p>
+        <p>Comes with free USB cable</p>
+    </div>
+
+    <h4>Similar Product</h4>
+    <div class="similar">
+        
+    </div>
+
+    <div class="customer-ratings">
+        <h2><a href="productrating.html">Customer Review <span> &nbsp; <i class="fas fa-arrow-right"></i></span> </a></h2>
+        <div class="ratings-reviews">
+            <div class="ratings">
+                <h5>Product Ratings <span>(10)</span></h5>
+                <div class="ratings-container">
+                    <div class="ratings-star">
+                        <p class="ratings-ratio"><span>2.5</span>/5</p>
+                        <p class="ratings-stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </p>
+                        <p class="verified-ratings"><span>10</span> Verified Product Ratings</p>
+                    </div>
+    
+                    <div class="stars-rating">
+                        <p class="five-star ">5 <span class="fa fa-star checked"></span> <span>(2)</span></p>
+                        <p class="four-star">4 <span class="fa fa-star checked"></span> <span>(2)</span></p>
+                        <p class="three-star">3 <span class="fa fa-star checked"></span> <span>(2)</span></p>
+                        <p class="two-star">2 <span class="fa fa-star checked"></span> <span>(2)</span></p>
+                        <p class="one-star">1 <span class="fa fa-star checked"></span> <span>(2)</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews">
+                <h5>Comments from Customer <span>(5)</span></h5>
+                <div class="comment">   
+                    <p class="ratings-stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </p>
+    
+                    <p class="written-reviews">
+                        It was a very nice product and the delivery was fast to
+                    </p>
+    
+                    <p class="date-customername">
+                        10-03-2022 by Godwin <span><i class="fas fa-check"></i></span>
+                    </p>
+                </div>
+                <div class="comment">   
+                    <p class="ratings-stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </p>
+    
+                    <p class="written-reviews">
+                        It was a very nice product and the delivery was fast to
+                    </p>
+    
+                    <p class="date-customername">
+                        10-03-2022 by Godwin <span><i class="fas fa-check"></i></span>
+                    </p>
+                </div>
+                <div class="comment">   
+                    <p class="ratings-stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </p>
+    
+                    <p class="written-reviews">
+                        It was a very nice product and the delivery was fast to
+                    </p>
+    
+                    <p class="date-customername">
+                        10-03-2022 by Godwin <span><i class="fas fa-check"></i></span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>   
+
+    <!-- Website Footer -->
+
+    <footer>
+
+        <div class="main-con">
+
+            <div class="con-head">
+                <div class="company-name">GadgetPride</div>
+                <div class="subscribe">
+                    <form action="">
+                        <h4>Subscribe to our newsletter to get updates on latest offers</h4>
+                        <div class="form_block">
+                            <input type="email" placeholder="Enter your email address">
+                            <input type="submit" value="Subscribe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="con-body-categories">
+    
+                <div class="menu">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="report.html">Report a product</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+    
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="myaccount.html">User Account</a></li>
+                        <li><a href="sell.html">Sell On GadgetPride</a></li>
+                        <li><a href="trackorder.html">Trank An Order</a></li>
+                        <li><a href="saved.html">Saved Items</a></li>
+                    </ul>
+                </div>
+    
+                <div class="top-proucts">
+                    <h4>Top Products</h4>
+                    <ul>
+                        <li><a href="samsung.html">Samsung</a></li>
+                        <li><a href="iphone.html">Iphone</a></li>
+                        <li><a href="charger.html">Charger</a></li>
+                        <li><a href="headphone.html">Headphone</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+    
+            <div class="con-body2">
+                <div class="social-media">
+                    <h4>Join Us On</h4>
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+    
+                <div class="payment-method">
+                    <h4>Payment Method</h4>
+                        <ul>
+                            <li><a href=""><i class="fab fa-cc-mastercard"></i></a></li>
+                            <li><a href=""><i class="fab fa-paypal"></i></a></li>
+                            <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+                            <li><a href=""><i class="fas fa-credit-card"></i></a></li>
+                        </ul>
+                </div>
+            </div>
+            
+            <div class="main-con-footer">
+                All Rights Reserved
+            </div>
+        </div>
+
+
+        <div class="con">
+            <div class="top"><a href="#top">Back To Top</a></div>
+            <div class="subcon">
+                <a href="services.html">Help Center</a>
+                <a href="contactus.html">Contact US</a>
+                <a href="#">TERMS&CONDITION</a>
+                <a href="sell.html">BECOME A SELLER</a>
+                <a href="report.html">REPORT A PRODUCT</a>
+            </div>
+            <div class="bottom">
+                All Rights Reserved
+            </div>
+        </div>
+
+    </footer>
+    
+    <!-- End of Website Footer -->
+
+    <script type="module" src="myjs/myjquery.js"></script>
+    <script type="module" src="myjs/sidebar.js"></script>
+    <script src="myjs/productpage.js"></script>
+    <script type="module" src="myjs/homepageproduct14.js"></script>
+</body>
+</html>

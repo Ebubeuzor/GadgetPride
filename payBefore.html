@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webcss/payBefore.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+
+    <header class="company">
+        <div class="company_name">
+
+            <p class="name">GadgetPride</p>
+        </div>
+
+        <div class="img">
+            <img class="shield_img" src="images/shield.jpeg" width="70px" />
+            <div class="secure_text">Secure Checkout</div>
+        </div>                
+    </header>
+
+    <div class="con">
+            
+            <div class="mastercard_visa pm">
+                <input class="mastercard subpm" type="radio" name="pm">
+                <label for="mastercard">
+                    Pay with Mastercard,Credit Card or Visa
+                </label>
+
+                <div class="main">
+                    <div class="cd">
+                        <input type="number" placeholder="Card Number">
+                    </div>
+    
+                    <div class="cd2">
+                        <select name="ed" class="ed">
+                            <option value="MM" selected disabled>MM</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+    
+                        <select name="ed2" id="ed">
+                            <option value="YY" selected disabled>YY</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                        </select>
+    
+                        <input type="number" placeholder="CVV" class="cvv">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bank_transfer pm">
+                <input class="banktransfer subpm" type="radio" name="pm">
+                <label for="banktransfer">
+                    Pay with Bank Transfer
+                </label>
+
+                <div class="main">
+                    
+                <div class="bank">
+                    <input type="text" class="bankdetails" placeholder="Bank">
+                </div>
+
+                <div class="bank">
+                    <input type="text" class="bankdetails" placeholder="Bank account owner" class="Bank_account_name">
+                </div>
+
+                <div class="bank">
+                    <input type="text" class="bankdetails" placeholder="Bank account number" class="Bank_account">
+                </div>
+                
+                </div>
+            </div>
+
+            <div class="pay_paypal pm">
+                <input class="paypaypal subpm" type="radio" name="pm">
+                <label for="paypaypal">
+                    Pay With Paypal
+                </label>
+                <div class="main">
+                <div class="pay_now">
+                    <a href="">PAY NOW: <span>₦100,700</span></a>
+                </div>
+                </div>
+            </div>
+            
+        <div class="back">
+            <a href="summary.html">Go Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

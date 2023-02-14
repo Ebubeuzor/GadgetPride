@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webcss/trackorder.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <h2 class="goback"><a href="javascript:void(0);"><span> &nbsp; <i class="fas fa-arrow-left"></i></span> &nbsp; Track Order</a></h2>
+
+<div class="modal fade" id="myModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title mx-auto">Order Status<br>OrderID- <span id="orderid">5335T5S</span></h4>
+            </div>
+            <div class="modal-body">
+                <div class="progress-track">
+                    <ul id="progressbar">
+                        <li class="step0 active " id="step1"><span id="one">Order</span></li>
+                        <li class="step0 active text-center" id="step2"><span id="two">Processing</span></li>
+                        <li class="step0 active text-right" id="step3"><span id="three">Out for Delivery</span></li>
+                        <li class="step0 text-right" id="step4"><span id="four">Delivered</span></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <div class="details d-table">
+                            <div class="d-table-row">
+                                <div class="d-table-cell"> Shipped with </div>
+                                <div class="d-table-cell"> Uber Airways </div>
+                            </div>
+                            <div class="d-table-row">
+                                <div class="d-table-cell"> Estimated Delivery </div>
+                                <div class="d-table-cell"> 02/12/2022</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="delivery-Hotline"><a href=#> Delivery Hotline &nbsp; &nbsp; <i class="fa fa-phone" aria-hidden="true"></i></a> </div>
+                        <div class="Email-Us"><a href=#> Email us about your delivery  &nbsp; &nbsp; <i class="fa fa-envelope" aria-hidden="true"></i></a> </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<script type="module" src="myjs/goback.js"></script>
+</body>
+</html>

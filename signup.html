@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webcss/signup.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <h2 class="goback"><a href="javascript:void(0);"><span> &nbsp; <i class="fas fa-arrow-left"></i></span> &nbsp; Sign Up</a></h2>
+        <div class="name signup">
+
+            <div class="ca">Create Account</div>
+
+            <form action="">
+            
+                <div class="field">
+                    <input type="text" name="fullname" id="fullname" placeholder="Your name">
+            
+                    <label for="fullname">Name</label>
+                </div>
+            
+                <div class="field">
+                    <input type="email" name="email" id="email" placeholder="youremail@example.com">
+            
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="field">
+                    <input type="number" name="num1" id="number" placeholder="080345677654">
+            
+                    <label for="num1">Enter phone Number</label>
+                </div>
+
+                <div class="field">
+                    <input type="number" name="num2" id="num2" placeholder="080345677654">
+            
+                    <label for="num2">Enter phone Number(2)</label>
+                </div>
+                
+                <div class="field">
+                    <input type="password" name="password" id="password" placeholder="**********">
+            
+                    <label for="password">Enter password</label>
+                </div>
+                
+                <div class="field">
+                    <input type="password" name="password" id="passwordcheck" placeholder="**********">
+            
+                    <label for="passwordcheck">Re-enter password</label>
+                </div>
+
+                <div class="location">
+                    <div class="local">Address Form</div>
+                    
+                    <div class="country loc">    
+                    <h4>Country</h4>
+                    <select id="country">
+                        <option>Nigeria</option>
+                        <option>Ghana</option>
+                        <option>Kenya</option>
+                        <option>Cameroon</option>
+                        <option>South Africa</option>
+                    </select>
+                    </div>
+
+                    <div class="state loc">
+                        <h4>State</h4>
+                        <select id="state">
+                            <option>Lagos</option>
+                            <option>Anambra</option>
+                            <option>Abuja</option>
+                            <option>Port Hacourt</option>
+                            <option>Imo</option>
+                        </select>
+                    </div>
+
+                    <div class="LGA loc">
+                        <h4>City</h4>
+                        <select id="LGA">
+                            <option>Festac</option>
+                            <option>Satellite</option>
+                            <option>Amuwo Adofin</option>
+                            <option>Lekki</option>
+                            <option>Banana Island</option>
+                        </select>
+                    </div>
+
+                    <div class="ad loc">
+                        <h4>Enter your Home Address</h4>
+                        <input class="home_control" type="text" class="sl" >
+                    </div>
+
+                </div>
+
+                <div class="field">
+                    <input type="submit" name="submit" id="submit" value="Create Account">
+            
+                </div>
+            </form>
+
+        </div>
+
+    <script type="module" src="myjs/goback.js"></script>
+</body>
+</html>

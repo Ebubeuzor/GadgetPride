@@ -1,0 +1,15 @@
+{
+    "items": [
+ 
+    {
+      "sys": { "id": "500" },
+      "fields": {
+        "title": "Samsung Galaxy S8",
+        "price1": 120000,
+        "price": 100000,
+        "link":"homepageproduct1.html",
+        "image": { "fields": { "file": { "url": "./images/samsung-phones/S8.jpeg" } } }
+      }
+    }
+    ]
+}

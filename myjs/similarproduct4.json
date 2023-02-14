@@ -1,0 +1,13 @@
+{
+    "items":[
+        {
+            "sys": { "id": "300" },
+            "fields": {
+              "title": "For iphone",
+              "price": 100000,
+              "link":"similarproduct4.html",
+              "image": { "fields": { "file": { "url": "./images/phone-charger/ip.png" } } }
+            }
+        }
+    ]
+}

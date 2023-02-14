@@ -1,0 +1,41 @@
+{
+    "items":[
+ 
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "For Iphone",
+        "price": 100000,
+        "link":"homepageproduct13.html",
+        "image": { "fields": { "file": { "url": "./images/phone-charger/iphonec.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "For Samsung phone",
+        "price": 100000,
+        "link":"homepageproduct14.html",
+        "image": { "fields": { "file": { "url": "./images/phone-charger/amazon.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "For iphone",
+        "price": 100000,
+        "link":"homepageproduct15.html",
+        "image": { "fields": { "file": { "url": "./images/phone-charger/ip.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "For Android",
+        "price": 100000,
+        "link":"homepageproduct16.html",
+        "image": { "fields": { "file": { "url": "./images/phone-charger/ac.png" } } }
+      }
+    }]
+}
+  

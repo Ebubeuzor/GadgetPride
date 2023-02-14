@@ -1,0 +1,186 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    height: fit-content;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+.subcon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.subcon a{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.co{
+    border-bottom: 2px solid orange;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+.form{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.form_group{
+    margin-bottom: 20px;
+}
+
+.form_label{
+    display: block;
+    font-size: 13px;
+}
+
+.form_control{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.form_radio{
+    cursor: pointer;
+}
+
+.radio_label{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.last{
+    padding: 20px;
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.submit{
+    text-align: center;
+}
+
+.submit button{
+    padding: 10px;
+    background: skyblue;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.submit button:hover{
+    transform: scale(1.1);
+}
+
+h4{
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width:640px){
+    .subcon div a, .form_label{
+        font-size: 12px;
+    }
+
+    .form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+        
+    .subcon{
+        justify-content: flex-start;
+        gap: 100px;
+        overflow-x: auto;
+    }
+        
+    .subcon a{
+        color: black;
+        font-weight: 600;
+    }
+        
+    .co{
+        border-bottom: none;
+    }
+        
+    .co a{
+        color: orange;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .subcon div a, .form_label{
+        font-size: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width:280px){
+    .subcon div a{
+        font-size: 8px;
+    }
+
+    h4,.radio_label{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:240px){
+    .subcon div a{
+        font-size: 7px;
+    }
+
+    
+    h4,.radio_label{
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+

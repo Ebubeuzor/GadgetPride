@@ -1,0 +1,55 @@
+{
+    "items": [
+ 
+    {
+      "sys": { "id": "5090" },
+      "fields": {
+        "title": "Samsung Galaxy S8",
+        "price1": 120000,
+        "price": 100000,
+        "link":"promoproduct1.html",
+        "image": { "fields": { "file": { "url": "./images/samsung-phones/S8.jpeg" } } }
+      }
+    },
+    {
+        "sys": { "id": "9999" },
+        "fields": {
+          "title": "For Samsung phone",
+          "price1": 120000,
+          "price": 100000,
+          "link":"promoproduct2.html",
+          "image": { "fields": { "file": { "url": "./images/phone-charger/ac.png" } } }
+        }
+    },
+    {
+        "sys": { "id": "1123" },
+        "fields": {
+          "title": "Iphone 12",
+          "category":"iphone",
+          "price1": 120000,
+          "price": 100000,
+          "link":"promoproduct3.html",
+          "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone12.png" } } }
+        }
+    },
+    {
+      "sys": { "id": "1111" },
+      "fields": {
+        "title": "Andriod Earbuds",
+        "price1": 120000,
+        "price": 100000,
+        "link":"promoproduct4.html",
+        "image": { "fields": { "file": { "url": "./images/headphones/noisecancel.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "7600" },
+      "fields": {
+        "title": "Samsung galaxy S21 Ultra",
+        "price": 100000,
+        "link": "promoproduct5.html",
+        "image": { "fields": { "file": { "url": "./images/samsung-phones/S21ultra.jpeg" } } }
+      }
+    }
+  ]
+}

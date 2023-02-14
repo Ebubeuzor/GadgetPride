@@ -1,0 +1,387 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: sans-serif;
+    background: whitesmoke;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a,h2{
+    color: white;
+    font-size: 15px;
+}
+
+.checked{
+    color: yellow;
+}
+
+.container{
+    margin: 100px 20px 20px;
+    padding: 20px;
+    background: white;
+}
+
+.ratings-reviews{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.ratings{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.ratings-star{
+    margin-top: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ratings-ratio{
+    font-size: 25px;
+    color: skyblue;
+    font-weight: 700;
+}
+
+.stars-rating p{
+    word-spacing: 10px;
+}
+
+.reviews{
+    font-size: 13px;
+}
+
+.comment{
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.date-customername{
+    color: gray;
+    font-size: 13px;
+}
+
+.date-customername span{
+    color: green;
+    font-size: 18px;
+}
+
+/* Website Footer */
+footer {
+    margin-top: 150px;
+    background-color: #000;
+    margin-bottom: 0;
+}
+
+.main-con{
+    background: black;
+    color: white;
+    padding: 25px;
+    margin-bottom: 0;
+}
+
+.con-head{
+    display: flex;
+    gap: 100px;
+}
+
+.con-head .company-name{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.con-head .subscribe{
+    padding: 20px;
+}
+
+.main-con h4{
+    margin-bottom: 10px;
+}
+
+.con-head .subscribe input{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.subscribe h4{
+    font-size: 14px;
+}
+
+.subscribe .form_block{
+    display: flex;
+    align-items: stretch;
+}
+
+.con-head .subscribe input[type="submit"]{
+    background: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.con-body-categories{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-body-categories h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.con-body-categories div ul li{
+    line-height: 30px;
+}
+
+.con-body-categories div ul li a,.con-body2 div ul li a{
+    color: white;
+    font-size: 13px;
+}
+
+.con-body-categories div ul li a:hover{
+    color: skyblue;
+}
+
+.con-body2 div ul li a:hover{
+    color: skyblue;
+}
+
+.con-body2{
+    display: flex;
+    gap: 150px;
+    margin-top: 20px;
+}
+
+.con-body2 div ul{
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.main-con-footer{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-top: 1px solid white;
+    opacity: 0.3;
+    margin-top: 20px;
+}
+
+footer .con{
+    background-color: black;
+    padding: 10px;
+    display: none;
+}
+
+footer .top{
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+footer .top a{
+    color:white;
+    font-size: 12px;
+}
+
+footer .subcon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+}
+
+footer .subcon a{
+    color: white;
+    font-size: 12px;
+}
+
+footer .bottom{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid white;
+    opacity: 0.3;
+}
+  
+
+/* End Of Website Footer */
+
+@media only screen and (max-width:820px){
+    
+    /* Website Footer */
+    
+    .con-body-categories{
+        padding: 20px;
+    }
+    /* End of Website Footer */
+}
+
+
+@media only screen and (max-width:640px){
+    /* Website Footer  */
+    .main-con{
+        display: none;
+    }
+
+    footer .con{
+        display: block;
+    }
+    /* End Of Website Footer */
+
+    .ratings-reviews{
+        flex-direction: column;
+    }
+
+    .ratings-star{
+        width: 50%;
+        /* margin: 5px auto; */
+    }
+}
+
+@media only screen and (max-width:600px){
+    
+    /* Website Footer  */
+    .main-con{
+        display: none;
+    }
+
+    footer .con{
+        display: block;
+    }
+    /* End Of Website Footer */
+}
+
+
+@media only screen and (max-width:600px){
+    
+    
+    /* Website Footer */
+
+    footer .subcon{
+        line-height: 20px;
+        gap: 10px;
+    }
+    
+    footer .subcon a{
+        font-size: 10px;
+    }
+
+    /*End of Website Footer */
+}
+
+@media only screen and (max-width:480px){
+    
+    /* Website Footer */
+
+    footer .subcon{
+        line-height: 20px;
+        gap: 10px;
+    }
+    
+    footer .subcon a{
+        font-size: 10px;
+    }
+
+    /*End of Website Footer */
+
+}
+
+
+@media only screen and (max-width:425px){
+
+    .comment p{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:414px){
+    
+    .comment{
+        margin-top: 15px;
+        line-height: 30px;
+    }
+
+    .ratings-star ,.ratings-container .stars-rating p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    
+    .container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .stars-rating p{
+        word-spacing: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width:240px){
+    /* Website Header */
+
+    /* Company Name */
+
+    .pageheader .companyname{
+        font-size: 11px;
+    }
+
+    /* End of Company Name */
+
+    /* Sidebar */
+
+    .sidebar .account{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    /* End Of Sidebar */
+
+    /* Pageheader search */
+
+    .hs{
+        left: 30px;
+    }
+
+    /* End Of Pageheader search */
+
+    /* User Cart Details */
+
+    .cart{
+        transform: translateX(30px);
+    }
+
+    /* End Of User Cart Details */
+
+    /* End Of Website Header */
+
+    .ratings-star ,.ratings-container .stars-rating p{
+        font-size: 10px;
+    }
+
+}

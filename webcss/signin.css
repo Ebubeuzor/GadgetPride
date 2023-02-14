@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family:sans-serif;
+  background: whitesmoke;
+  font-weight: 500;
+}
+
+.signin{
+  width: 30%;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+h2{
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+h2 a{
+  font-size: 15px;
+  color: white;
+}
+
+.ca{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.companyname{
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+
+form {
+  margin: 2px 0;  
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+
+.form-group{
+  margin-bottom: 1em;
+  transition:all .3s;
+}
+
+.form-label{
+  font-size: 13px;
+  display: block;
+  opacity: 1;
+  transform: translateY(-1.25em);
+  transform-origin: 0 0;
+  transition: all .3s;
+}
+
+.form-control{
+  box-shadow: none;
+  border-radius: 0;
+  border-color: black;
+  border-style: none none solid none;
+  width: 100%;
+  transition: all .5s;
+  padding: 5px;
+}
+
+.form-control::placeholder{
+  color: transparent;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  outline: none;
+  border-color: skyblue;
+}
+
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label
+{
+  transform: translateY(-2.5em) scale(.8);
+}
+
+.form-group:focus-within{
+  transform: scale(1.05,1.05);
+}
+
+.submit{
+  text-align: center;
+}
+
+#submit{
+  border: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+  color: white;
+  background: skyblue;
+  padding: 10px 30px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#submit:hover{
+  transform: scale(1.1);
+}
+.que{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.que a{
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width:640px){
+
+  .que a{
+    font-size: 10px;
+  }
+
+  .signin{
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width:360px){
+  #submit{
+    margin-top: 0;
+  }
+
+  .que{
+    margin-top: 15px;
+  }
+
+  .form-control,.form-label{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:320px){
+
+  .companyname{
+    font-size: 15px;
+  }
+
+  .field{
+    margin-bottom: 10px;
+  }
+
+  input{
+    font-size: 10px;
+  }
+
+
+}

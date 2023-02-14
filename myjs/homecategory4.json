@@ -1,0 +1,41 @@
+{
+    "items":[
+ 
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "Wireless Headphone noisecancel",
+        "price": 100000,
+        "link":"homepageproduct17.html",
+        "image": { "fields": { "file": { "url": "./images/headphones/noisecancel.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "Wireless Headphone",
+        "price": 100000,
+        "link":"homepageproduct18.html",
+        "image": { "fields": { "file": { "url": "./images/headphones/wireless.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "Apple airpods",
+        "price": 100000,
+        "link":"homepageproduct19.html",
+        "image": { "fields": { "file": { "url": "./images/headphones/airpods.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "Andriod Earbuds",
+        "price": 100000,
+        "link":"homepageproduct20.html",
+        "image": { "fields": { "file": { "url": "./images/headphones/Earbuds.png" } } }
+      }
+    }
+  ]
+}

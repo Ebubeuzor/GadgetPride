@@ -1,0 +1,13 @@
+{
+    "items":[
+        {
+            "sys": { "id": "150" },
+            "fields": {
+              "title": "Apple airpods",
+              "price": 100000,
+              "link":"similarproduct3.html",
+              "image": { "fields": { "file": { "url": "./images/headphones/airpods.png" } } }
+            }
+        }
+    ]
+}

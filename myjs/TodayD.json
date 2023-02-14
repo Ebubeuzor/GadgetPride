@@ -1,0 +1,46 @@
+{
+    "items": [
+ 
+    {
+      "sys": { "id": "500" },
+      "fields": {
+        "title": "Samsung Galaxy S8",
+        "price1": 120000,
+        "price": 100000,
+        "link":"homepageproduct1.html",
+        "image": { "fields": { "file": { "url": "./images/samsung-phones/S8.jpeg" } } }
+      }
+    },
+    {
+        "sys": { "id": "1000" },
+        "fields": {
+          "title": "For Samsung phone",
+          "price1": 120000,
+          "price": 100000,
+          "link":"homepageproduct2.html",
+          "image": { "fields": { "file": { "url": "./images/phone-charger/amazon.jpeg" } } }
+        }
+    },
+    {
+        "sys": { "id": "3000" },
+        "fields": {
+          "title": "Iphone XS",
+          "category":"iphone",
+          "price1": 120000,
+          "price": 100000,
+          "link":"homepageproduct3.html",
+          "image": { "fields": { "file": { "url": "./images/iphone-phones/iphonexs.png" } } }
+        }
+    },
+    {
+      "sys": { "id": "1600" },
+      "fields": {
+        "title": "Andriod Earbuds",
+        "price1": 120000,
+        "price": 100000,
+        "link":"homepageproduct4.html",
+        "image": { "fields": { "file": { "url": "./images/headphones/Earbuds.png" } } }
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+body{
+    background: whitesmoke;
+    width: 100%;
+    font-family: Avenir Next, Avenir, SegoeUI, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    box-shadow: none;
+    margin-bottom: 200px;
+}
+
+.con{
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 300px;
+    width: 50%;
+    text-align:center;
+}
+
+.company{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    padding: 30px 5px 30px 5px;
+    opacity: 0.5;
+}
+
+.name{
+    font-size:25px;
+}
+
+.img{
+    display: flex;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+
+input{
+    cursor: pointer;
+}
+
+.img .secure_text{
+    padding-top: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.pm{
+    margin-top: 25px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pm .cd input{
+    width: 100%;
+    outline: none;
+    border: 2px solid black;
+    border-style: none none solid none;
+}
+
+.pm .cd, .pm .cd2{
+    margin-top: 20px;
+}
+
+.pm select{
+    border: 2px solid black;
+    border-style: none none solid none;
+    font-size: 12px;
+}
+
+.pm label{
+    font-size: 12px;
+}
+
+.pm .cvv{
+    border: 2px solid black;
+    border-style: none none solid none;
+    outline: none;
+}
+
+.pm .bankdetails{
+    border: 2px solid black;
+    border-style: none none solid none;
+    outline: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pm .pay_now{
+    width: 100%;
+    text-align: center;  
+    margin-top: 20px;  
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.pm .pay_now:hover{
+    transform: scale(1.1);
+}
+
+.pm .pay_now a{
+    font-size: 12px;
+    background: orange;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.back{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;  
+    transition: all .5s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.back:hover{
+    transform: scale(1.1);
+}
+
+.back a{
+    font-size: 15px;
+    background: orange;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.pm .main{
+    display: none;
+}
+
+.pm:focus-within .main{
+    display: block;
+}
+
+@media only screen and (max-width: 800px){
+    .con{
+        width: 70%;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    .company .company_name, .company .img{
+        padding: 0 10px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .img img{
+        width: 50px;
+        margin-top: 12px;
+    }
+
+    .img .secure_text{
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    
+    .con{
+        width: 70%;
+    }
+
+    .img img{
+        width: 30px;
+        margin-top: 19px;
+    }
+
+    .img .secure_text,.pm label,.pm select,.pm .pay_now a,.back a{
+        font-size: 10px;
+    }
+
+    .name{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+    label{
+        font-size: 15px;
+    }
+}
+
+

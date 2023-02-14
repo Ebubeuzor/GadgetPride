@@ -1,0 +1,14 @@
+{
+    "items": [
+ 
+        {
+            "sys": { "id": "16" },
+            "fields": {
+              "title": "Andriod Earbuds",
+              "price": 100000,
+              "link": "headphoneproduct4.html",
+              "image": { "fields": { "file": { "url": "./images/headphones/Earbuds.png" } } }
+            }
+        }
+    ]
+}

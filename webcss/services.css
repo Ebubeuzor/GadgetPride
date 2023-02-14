@@ -1,0 +1,191 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    height: fit-content;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+.subcon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.subcon a{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.po{
+    border-bottom: 2px solid orange;
+}
+
+.details header{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.details ol {
+    padding: 20px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.cto{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.check{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.brands{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 50px;
+}
+
+.pd{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pd img{
+    width: 50px;
+}
+
+.pd p a{
+    color: black;
+    font-size: 12px;
+}
+
+@media only screen and (max-width:640px){
+    .subcon div a{
+        font-size: 12px;
+    }
+
+    .brands{
+        grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+        grid-gap: 30px;
+    }
+    
+    .cto{
+        font-size: 12px;
+    }
+
+    .details ol{
+        font-size: 13px;
+    }
+
+        
+    .subcon{
+        justify-content: flex-start;
+        gap: 100px;
+        overflow-x: auto;
+    }
+        
+    .subcon a{
+        color: black;
+        font-weight: 600;
+    }
+        
+    .po{
+        border-bottom: none;
+    }
+        
+    .po a{
+        color: orange;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .subcon div a{
+        font-size: 10px;
+    }
+
+    .cto{
+        font-size: 15px;
+    }
+
+    .brands{
+        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+        grid-gap: 30px;
+    }
+
+    .details ol{
+        font-size: 12px;
+    }
+
+    .pd img{
+        width: 50px;
+    }
+}
+
+
+@media only screen and (max-width:280px){
+    .subcon div a{
+        font-size: 8px;
+    }
+
+    .check{
+        font-size: 15px;
+    }
+
+    .pd img{
+        width: 50px;
+    }
+
+    .details header{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .details ol{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:240px){
+    .subcon div a{
+        font-size: 7px;
+    }
+
+    .brands{
+        grid-template-columns: repeat(auto-fill, minmax(50px,1fr));
+        grid-gap: 30px;
+    }
+
+    .pd img{
+        width: 40px;
+    }
+}
+

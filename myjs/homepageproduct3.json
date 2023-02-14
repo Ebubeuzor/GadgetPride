@@ -1,0 +1,15 @@
+{
+    "items": [
+        {
+            "sys": { "id": "3000" },
+            "fields": {
+            "title": "Iphone XS",
+            "category":"iphone",
+            "price1": 120000,
+            "price": 100000,
+            "link":"homepageproduct3.html",
+            "image": { "fields": { "file": { "url": "./images/iphone-phones/iphonexs.png" } } }
+            }
+        }
+    ]
+}

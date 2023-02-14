@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "sys": { "id": "2" },
+            "fields": {
+              "title": "Iphone 12",
+              "category":"iphone",
+              "price": 100000,
+              "link":"homepageproduct6.html",
+              "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone12.png" } } }
+            }
+          }
+    ]
+}

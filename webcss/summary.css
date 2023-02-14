@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: whitesmoke;
+    font-family: Avenir Next, Avenir, SegoeUI, sans-serif;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.con{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+
+
+.company{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.name{
+    font-size:25px;
+}
+
+.img{
+    display: flex;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+
+.img .secure_text{
+    padding-top: 30px;
+}
+
+.DPS{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.DPS a{
+    color: black;
+    font-size: 14px;
+}
+
+.DPS .S{
+    font-size: 14px;
+    background: orange;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: -5px;
+}
+
+.os{
+    margin-bottom: 15px;
+    font-weight: 700;
+    opacity: 0.3;
+}
+
+.feetotal .it{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.AD{
+    margin-top: 50px;
+}
+
+.AD a{
+    color: black;
+}
+
+.AD header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.AD .addD p{    
+    margin: 10px;
+    font-size: 13px;
+}
+
+.DM,.PM{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.DM header, .PM header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.DM header a, .PM header a{
+    font-size: 14px;
+}
+
+.DM .delivery,.PM .pay{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+.nac{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.nac .btn{
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    background: orange;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nac .btn:hover{
+    transform: scale(1.1);
+}
+
+.nac .btn a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer{
+    background: black;
+    margin-bottom: 0; 
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-size: 10px;
+    }
+
+    .img img{
+        width: 50px;
+        margin-top: 12px;
+    }
+
+    .img .secure_text{
+        font-size: 12px;
+    }
+
+    .name{
+        margin-top: 12px;
+        font-size: 17px;
+    }
+
+    .nac .btn{
+        width: 200px;
+    }
+
+    .DPS a{
+        font-size: 11px;
+    }
+
+    .DPS .S{
+        font-size: 11px;
+    }
+    
+    p,.AD,.AD a,.AD .addD p,.PM .pay,.DM .delivery,.PM header a,.DM header a{
+        font-size: 10px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .DPS{
+        justify-content: space-between;
+        gap: 35px;
+        margin-left: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 240px) {
+    
+    .con{
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+        /* width: 197px; */
+    }
+    
+    .img img{
+        width: 30px;
+        margin-top: 19px;
+    }
+
+    .img .secure_text{
+        font-size: 10px;
+    }
+
+    .name{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .DPS{
+        gap: 30px;
+    }
+    
+    .DPS{
+        font-size: 10px;
+    }
+
+
+    .nac .btn{
+        width: 150px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .nac .btn a{
+        font-size: 10px;
+    }
+
+    .AD header .your_address,.change_address{
+        font-size: 12px;
+    }
+
+    .AD .addD p{
+        font-size: 10px;
+    }
+
+    .DM header p{
+        font-size: 12px;
+    }
+
+    .PM header p{
+        font-size: 12px;
+    }
+    
+    footer {
+        font-size: 10px;
+    }
+
+}

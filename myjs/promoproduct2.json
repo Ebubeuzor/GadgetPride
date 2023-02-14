@@ -1,0 +1,15 @@
+{
+    "items": [
+ 
+        {
+            "sys": { "id": "9999" },
+            "fields": {
+              "title": "For Samsung phone",
+              "price1": 120000,
+              "price": 100000,
+              "link":"promoproduct2.html",
+              "image": { "fields": { "file": { "url": "./images/phone-charger/ac.png" } } }
+            }
+        }
+    ]
+}

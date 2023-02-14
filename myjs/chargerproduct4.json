@@ -1,0 +1,14 @@
+{
+    "items": [
+ 
+        {
+            "sys": { "id": "4009" },
+            "fields": {
+              "title": "For Android",
+              "price": 100000,
+              "link": "chargerproduct4.html",
+              "image": { "fields": { "file": { "url": "./images/phone-charger/ac.png" } } }
+            }
+        }
+    ]
+}

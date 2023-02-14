@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: whitesmoke;
+    font-family: Avenir Next, Avenir, SegoeUI, sans-serif;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+.addD{
+    background-color: white;
+    line-height: 30px;
+}
+
+.addD p{    
+    margin: 10px;
+    font-size: 13px;
+}
+
+
+.plus{
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background: skyblue;
+}
+
+.plus a{
+    color: white;
+}
+
+.plus .fas{
+    font-size: 50px;
+}
+
+
+/* Website Footer */
+footer {
+    margin-top: 150px;
+    background-color: #000;
+    margin-bottom: 0;
+}
+
+.main-con{
+    background: black;
+    color: white;
+    padding: 25px;
+    margin-bottom: 0;
+}
+
+.con-head{
+    display: flex;
+    gap: 100px;
+}
+
+.con-head .company-name{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.con-head .subscribe{
+    padding: 20px;
+}
+
+.main-con h4{
+    margin-bottom: 10px;
+}
+
+.con-head .subscribe input{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.subscribe h4{
+    font-size: 14px;
+}
+
+.subscribe .form_block{
+    display: flex;
+    align-items: stretch;
+}
+
+.con-head .subscribe input[type="submit"]{
+    background: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.con-body-categories{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-body-categories h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.con-body-categories div ul li{
+    line-height: 30px;
+}
+
+.con-body-categories div ul li a,.con-body2 div ul li a{
+    color: white;
+    font-size: 13px;
+}
+
+.con-body-categories div ul li a:hover{
+    color: skyblue;
+}
+
+.con-body2 div ul li a:hover{
+    color: skyblue;
+}
+
+.con-body2{
+    display: flex;
+    gap: 150px;
+    margin-top: 20px;
+}
+
+.con-body2 div ul{
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.main-con-footer{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-top: 1px solid white;
+    opacity: 0.3;
+    margin-top: 20px;
+}
+
+footer .con{
+    background-color: black;
+    padding: 10px;
+    display: none;
+}
+
+footer .top{
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+footer .top a{
+    color:white;
+    font-size: 12px;
+}
+
+footer .subcon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+}
+
+footer .subcon a{
+    color: white;
+    font-size: 12px;
+}
+
+footer .bottom{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid white;
+    opacity: 0.3;
+}
+  
+
+/* End Of Website Footer */
+
+@media only screen and (max-width:820px){
+    /* Website Footer */
+    
+    .con-body-categories{
+        padding: 20px;
+    }
+    /* End of Website Footer */
+
+}
+
+
+@media only screen and (max-width: 640px) {
+        
+    /* Website Footer  */
+    .main-con{
+        display: none;
+    }
+
+    footer .con{
+        display: block;
+    }
+    /* End Of Website Footer */
+
+}
+
+@media only screen and (max-width:600px){
+    
+    
+    /* Website Footer */
+
+    footer .subcon{
+        line-height: 20px;
+        gap: 10px;
+    }
+    
+    footer .subcon a{
+        font-size: 10px;
+    }
+
+    /*End of Website Footer */
+}
+
+@media only screen and (max-width:480px){
+    
+    /* Website Footer */
+
+    footer .subcon{
+        line-height: 20px;
+        gap: 10px;
+    }
+    
+    footer .subcon a{
+        font-size: 10px;
+    }
+
+    /*End of Website Footer */
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+    .container div a{
+        font-size: 15px;
+    }
+
+    .plus .fas{
+        font-size: 30px;
+    }
+
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 80%;
+    background-color: white;
+    margin: 100px auto;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow-x: scroll;
+}
+
+table .header td {
+    background-color: skyblue;
+    color: white;
+}
+
+table td{
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+table td span{
+    color: skyblue;
+}
+
+.withdraw{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.withdraw button{
+    background-color: skyblue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.withdraw button:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 280px){
+    table{
+        width: 50px;
+    }
+}

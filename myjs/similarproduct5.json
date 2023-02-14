@@ -1,0 +1,13 @@
+{
+    "items":[
+        {
+            "sys": { "id": "400" },
+            "fields": {
+              "title": "Samsung Galaxy A03",
+              "price": 100000,
+              "link":"similarproduct5.html",
+              "image": { "fields": { "file": { "url": "./images/samsung-phones/galaxya03.png" } } }
+            }
+        }
+    ]
+}

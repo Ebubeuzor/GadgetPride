@@ -1,0 +1,156 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    height: fit-content;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 20px;
+    width:30%;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.subcon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.subcon a{
+    color: black;
+    font-weight: 600;
+}
+
+.co{
+    border-bottom: 2px solid skyblue;
+}
+
+.form{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.form_group{
+    margin-bottom: 20px;
+}
+
+.form_label{
+    display: block;
+    font-size: 13px;
+}
+
+.form_control{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.last{
+    padding: 20px;
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.submit{
+    text-align: center;
+}
+
+.submit button{
+    padding: 10px 20px;
+    background: skyblue;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.submit button:hover{
+    transform: scale(1.1);
+}
+
+h4{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width:800px){
+    .subcon div a, .form_label{
+        font-size: 12px;
+    }
+
+    .container{
+        width: 60%;
+    }
+
+    .form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    
+}
+
+@media only screen and (max-width:360px){
+    .subcon div a, .form_label{
+        font-size: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width:280px){
+    h4,.form_label{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:240px){
+    h4,.form_label{
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+

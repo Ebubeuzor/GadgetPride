@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "sys": { "id": "1000" },
+            "fields": {
+              "title": "For Samsung phone",
+              "price1": 120000,
+              "price": 100000,
+              "link":"homepageproduct2.html",
+              "image": { "fields": { "file": { "url": "./images/phone-charger/amazon.jpeg" } } }
+            }
+        }
+    ]
+}

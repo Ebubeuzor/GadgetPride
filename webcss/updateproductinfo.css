@@ -1,0 +1,141 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.container{
+    margin: 50px;
+    padding: 20px;
+    background: white;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    color:white;
+    font-size: 15px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container-header a{
+    color: black;
+}
+
+
+.container-header .products-details a{
+    color: skyblue;
+}
+
+.products{    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    background: whitesmoke;
+}
+
+.pd img{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.pd{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background: white;
+}
+
+.pd ul{
+    line-height: 15px;
+}
+
+.pd  span{
+    color: skyblue;
+    font-weight: bold;
+}
+
+.pd ul li{
+    font-size: 12px;
+    margin: 5px 0;
+    word-spacing: 5px;
+}
+
+button a{
+    font-size: 12px;
+}
+
+.pd ul a{
+    color: black;
+}
+
+@media only screen and (max-width: 800px){
+    .pd img{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    
+    .products{    
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+        background: whitesmoke;
+    }
+
+    .pd ul li,button a{
+        font-size: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 447px){
+    .products{
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+    }
+}
+
+@media only screen and (max-width: 428px){
+
+    .products{
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fill, minmax(1fr));
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .container{
+        padding: 10px;
+    }
+
+    .products{
+        grid-template-columns: 1fr;
+    }
+}

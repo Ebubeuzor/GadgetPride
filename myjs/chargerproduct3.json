@@ -1,0 +1,14 @@
+{
+    "items": [
+ 
+        {
+            "sys": { "id": "3009" },
+            "fields": {
+              "title": "For iphone",
+              "price": 100000,
+              "link": "chargerproduct3.html",
+              "image": { "fields": { "file": { "url": "./images/phone-charger/ip.png" } } }
+            }
+        }
+    ]
+}

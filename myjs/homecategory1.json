@@ -1,0 +1,45 @@
+{
+    "items":[
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Iphone 11 pro",
+          "category":"iphone",
+          "price": 100000,
+          "link":"homepageproduct5.html",
+          "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone11pro.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Iphone 12",
+          "category":"iphone",
+          "price": 100000,
+          "link":"homepageproduct6.html",
+          "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone12.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Iphone XS",
+          "category":"iphone",
+          "price": 100000,
+          "link":"homepageproduct7.html",
+          "image": { "fields": { "file": { "url": "./images/iphone-phones/iphonexs.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Iphone 12 pro max",
+          "category":"iphone",
+          "price": 100000,
+          "link":"homepageproduct8.html",
+          "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone12promax.png" } } }
+        }
+      }]
+}
+
+

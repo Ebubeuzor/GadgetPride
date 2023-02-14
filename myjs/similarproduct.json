@@ -1,0 +1,50 @@
+{
+    "items":[
+ 
+    {
+      "sys": { "id": "130" },
+      "fields": {
+        "title": "Samsung Fold 3",
+        "price": 100000,
+        "link":"similarproduct1.html",
+        "image": { "fields": { "file": { "url": "./images/samsung-phones/galaxyzfold3.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "140" },
+      "fields": {
+        "title": "Iphone 13 Pro",
+        "price": 100000,
+        "link":"similarproduct2.html",
+        "image": { "fields": { "file": { "url": "./images/iphone-phones/iphone13pro.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "150" },
+      "fields": {
+        "title": "Apple airpods",
+        "price": 100000,
+        "link":"similarproduct3.html",
+        "image": { "fields": { "file": { "url": "./images/headphones/airpods.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "300" },
+      "fields": {
+        "title": "For iphone",
+        "price": 100000,
+        "link":"similarproduct4.html",
+        "image": { "fields": { "file": { "url": "./images/phone-charger/ip.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "400" },
+      "fields": {
+        "title": "Samsung Galaxy A03",
+        "price": 100000,
+        "link":"similarproduct5.html",
+        "image": { "fields": { "file": { "url": "./images/samsung-phones/galaxya03.png" } } }
+      }
+    }
+]
+}

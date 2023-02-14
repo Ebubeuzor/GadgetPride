@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+    height: fit-content;
+}
+
+.container{
+    width: 30%;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin: 50px auto;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+h2 a i{
+    color: white;
+}
+
+.loc{
+    background-color: white;
+    padding: 2em;
+    margin-bottom: 1.5em;
+}
+
+.subloc{
+    margin-bottom: 1.5em;
+}
+
+.subloc input{
+    background-color: white;
+}
+
+.form-label{
+    font-size: 0.8em;
+    color: #aaa;
+    display: block;
+    opacity: 1;
+    transform-origin: 0 0;
+    transition: all .3s;
+}
+
+.form-control{
+    box-shadow: none;
+    border-radius: 0;
+    border-color: black;
+    border-style: none none solid none;
+    width: 100%;
+    transition: all .5s;
+    padding: 5px;
+    font-size: 13px;
+}
+
+
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: skyblue;
+}
+
+
+.pick-station{
+    margin-bottom: 1.5em;
+    background-color: white;
+    padding: 2em;
+    line-height: 1.5em;
+}
+
+button{
+    background-color: orange;
+    transition: all .5s ease-in-out;
+    border: none;
+    color: white;
+    font-size: 13px;
+    border-radius: 0.4em;
+    padding: 0.2em;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.pickup-description,span{
+    color: #aaa;
+}
+
+.subcon{
+    font-size: 13px;
+}
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        width: 80%;
+        margin-bottom: 100px;
+        padding: 5px;
+    }
+    
+    h2 a{
+        font-size: 16px;
+    }
+}

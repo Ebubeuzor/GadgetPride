@@ -1,0 +1,13 @@
+{
+    "items": [
+        {
+            "sys": { "id": "7" },
+            "fields": {
+              "title": "Samsung galaxy M12",
+              "price": 100000,
+              "link":"homepageproduct11.html",
+              "image": { "fields": { "file": { "url": "./images/samsung-phones/galaxym12.png" } } }
+            }
+        }
+    ]
+}

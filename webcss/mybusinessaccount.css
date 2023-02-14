@@ -1,0 +1,151 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.container{
+    margin: 50px;
+    padding: 20px;
+    background: white;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container-header a{
+    color: black;
+    font-weight: bold;
+}
+
+
+.container-header .products-details a{
+    color: orange;
+}
+
+.products{    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    background: whitesmoke;
+}
+
+.pd img{
+    width: 70px;
+    height: 90px;
+}
+
+.pd{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    transition: all .5s ease-in-out;
+}
+
+.pd:hover{
+    transform: scale(1.1);
+}
+
+.pd ul{
+    line-height: 20px;
+    word-spacing: 4px;
+    font-size: 14px;
+}
+
+.pd ul li{
+    font-size: 13px;
+    display: flex;
+}
+
+
+.pd ul a:nth-child(1){
+    color: black;
+}
+
+.pd ul li a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+
+.add{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 50px;
+    font-size: 25px;
+    height:fit-content
+}
+
+.add i a{
+    color: black;
+    margin: auto;
+}
+
+@media only screen and (max-width: 425px){
+    
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .pd{
+        flex-direction: column;
+        
+    }
+
+    .pd img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .add{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    .container-header a{
+        font-size: 10px;
+    }
+
+    .pd ul li{
+        font-size: 8px;
+    }
+}
+
+
+@media only screen and (max-width: 280px){
+    .container{
+        padding: 10px;
+    }
+
+    .products{
+        grid-template-columns: 1fr;
+    }
+}

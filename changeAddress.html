@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webcss/changeAddress.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <h2 class="goback"><a href="javascript:void(0);"><span> &nbsp; <i class="fas fa-arrow-left"></i></span> &nbsp; Change Address</a></h2>
+
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <input type="text" value="Ebube" disabled id="name" class="form-control" name="name" placeholder="Ebube Uzor">
+                <label for="name" class="form-label">First Name</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="lastname" value="Uzor" disabled class="form-control" name="email" placeholder="ebube@gmail.com">
+                <label for="lastname" class="form-label">Last Name</label>
+            </div>
+                        
+            <div class="form-group">
+                <input type="number" value="0909898768797" disabled id="firstnum" class="form-control" name="email" placeholder="ebube@gmail.com">
+                <label for="firstnum" class="form-label">Mobile Number</label>
+            </div>
+
+            <div class="form-group">
+                <input type="number" value="0909898768797" disabled id="lastnum" class="form-control" name="email" placeholder="ebube@gmail.com">
+                <label for="lastnum" class="form-label">Additional Number</label>
+            </div>
+            
+            <div class="form-group fgc">
+               
+                <h4>state</h4>
+                <select id="state" name="stete">
+                    <option value="lagos">Lagos</option>
+                    <option value="Anambrar">Anambra</option>
+                    <option value="Abuja">Abuja</option>
+                    <option value="Ph">Port Hacourt</option>
+                    <option value="Imo">Imo</option>
+                </select>
+            </div>
+
+            <div class="form-group fgs">
+                <h4>City</h4>
+                <select id="city" name="city">
+                    <option>Festac</option>
+                    <option>Satellite</option>
+                    <option>Amuwo Adofin</option>
+                    <option>Lekki</option>
+                    <option>Banana Iform-controland</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h4>Enter your Home Address</h4>
+                <input class="form-control" >
+            </div>
+
+            <div class="check">
+                <input type="checkbox" id="default">
+                <label for="default" class="set">Set as default address</label>
+            </div>
+
+            <div class="save">
+                <input type="submit" id="save" value="Save">
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="myjs/goback.js"></script>
+</body>
+</html>

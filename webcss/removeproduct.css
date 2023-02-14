@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+h2{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+.container{
+    width: 30%;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+.form-group{
+    margin: 35px 0;
+    padding: 10px;
+}
+
+.form-label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control{
+    width: 95%;
+    padding: 10px;
+    border: 0.5px solid black;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+
+.form-group:last-child{
+    text-align: center;
+}
+
+.submit{
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+
+@media only screen and (max-width: 640px) {
+    body {
+        justify-content: flex-start;
+    }
+
+    .form-group{
+        margin-left: -15px;
+    }
+    
+    .container{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 280px) {
+    h2{
+        font-size: 20px;
+    }
+
+    .form-control,.form-label{
+        font-size: 12px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

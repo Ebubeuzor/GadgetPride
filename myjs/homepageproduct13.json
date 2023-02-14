@@ -1,0 +1,13 @@
+{
+    "items": [
+        {
+            "sys": { "id": "9" },
+            "fields": {
+              "title": "For Iphone",
+              "price": 100000,
+              "link":"homepageproduct13.html",
+              "image": { "fields": { "file": { "url": "./images/phone-charger/iphonec.png" } } }
+            }
+          }
+    ]
+}
